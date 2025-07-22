@@ -42,7 +42,7 @@ export const TUTORIAL_DATA: Record<
   nubank: [
     {
       title: "Acesse sua conta",
-      description: "Na tela principal, **toque em sua conta corrente**",
+      description: "Na tela principal, **toque em sua conta corrent ae**",
       imageUrl: "/placeholder.svg?height=600&width=400",
       imageAlt: "Tela inicial do aplicativo Nubank",
       cardImageUrl: "/assets/nubank/step-01.png", // Caminho para sua imagem
