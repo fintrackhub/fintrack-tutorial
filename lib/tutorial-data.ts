@@ -45,28 +45,28 @@ export const TUTORIAL_DATA: Record<
       description: "Na tela principal, **toque em sua conta corrent ae**",
       imageUrl: "/placeholder.svg?height=600&width=400",
       imageAlt: "Tela inicial do aplicativo Nubank",
-      cardImageUrl: "/assets/nubank/step-01.png", // Caminho para sua imagem
+      cardImageUrl: "/assets/nubank/step1.png", // Caminho para sua imagem
     },
     {
       title: "Visualize o extrato",
       description: "**Deslize para baixo** para ver suas movimentações",
       imageUrl: "/placeholder.svg?height=600&width=400",
       imageAlt: "Extrato do Nubank",
-      cardImageUrl: "/assets/nubank/step-02.png", // Caminho para sua imagem
+      cardImageUrl: "/assets/nubank/step2.png", // Caminho para sua imagem
     },
     {
       title: "Acesse configurações",
       description: "Toque nos **três pontos** no canto superior direito",
       imageUrl: "/placeholder.svg?height=600&width=400",
       imageAlt: "Menu de configurações do Nubank",
-      cardImageUrl: "/assets/nubank/step-03.png", // Caminho para sua imagem
+      cardImageUrl: "/assets/nubank/step2.png", // Caminho para sua imagem
     },
     {
       title: "Exporte o extrato",
       description: "Selecione a opção **'Exportar extrato'** e escolha o período",
       imageUrl: "/placeholder.svg?height=600&width=400",
       imageAlt: "Exportação de extrato do Nubank",
-      cardImageUrl: "/assets/nubank/step-04.png", // Caminho para sua imagem
+      cardImageUrl: "/assets/nubank/step3.png", // Caminho para sua imagem
     },
   ],
 }
