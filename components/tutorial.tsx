@@ -4,6 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
 import TutorialStep from "@/components/tutorial-step"
+import FinTrackLogo from "@/components/fintrack-logo"
 import { TUTORIAL_DATA } from "@/lib/tutorial-data"
 
 interface TutorialProps {
@@ -57,10 +58,7 @@ export default function Tutorial({ bankId, onComplete, onBack }: TutorialProps) 
         <button onClick={onBack} className="mr-4">
           <ArrowLeft className="w-6 h-6 text-white" />
         </button>
-        <div className="text-xl font-medium">
-          <span className="text-white">Fin</span>
-          <span className="text-blue-500">Track</span>
-        </div>
+        <FinTrackLogo width={140} height={24} />
       </div>
 
       {/* Conteúdo principal */}

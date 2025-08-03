@@ -24,21 +24,16 @@ export default function BankSelector({ onBankSelect }: BankSelectorProps) {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col">
-      {/* Header com seta de voltar */}
-      <div className="p-4">
-        <ArrowLeft className="w-6 h-6 text-white" />
-      </div>
 
       {/* Conteúdo principal */}
       <div className="flex-1 flex flex-col items-center justify-center px-6 -mt-16">
         {/* Logo */}
         <div className="mb-16">
-          <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center">
-            <div className="w-8 h-8 relative">
-              <div className="w-4 h-4 bg-blue-500 rounded-tl-lg absolute top-0 left-0"></div>
-              <div className="w-4 h-4 bg-gray-800 rounded-br-lg absolute bottom-0 right-0"></div>
-            </div>
-          </div>
+          <svg width="80" height="80" viewBox="0 0 139 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="69.5" cy="69.5" r="69.5" fill="#E8E6F5"/>
+            <path d="M89.5647 24.8996L89.5647 63.0619L50.0166 63.0619V51.4426L89.5647 24.8996Z" fill="#3C75D8"/>
+            <path d="M89.5649 69.8983L89.5649 114.573L50.0168 114.573L50.0168 69.8983H89.5649Z" fill="#2A2739"/>
+          </svg>
         </div>
 
         {/* Título */}

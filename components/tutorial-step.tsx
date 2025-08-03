@@ -10,6 +10,7 @@ interface TutorialStepProps {
     imageUrl: string
     imageAlt: string
     cardImageUrl?: string
+    secondCardImageUrl?: string
   }
   stepNumber: number
   onNext: () => void

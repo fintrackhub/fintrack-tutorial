@@ -7,6 +7,7 @@ export const TUTORIAL_DATA: Record<
     imageUrl: string
     imageAlt: string
     cardImageUrl?: string // Caminho para a imagem do card/tela do app
+    secondCardImageUrl?: string // Caminho para uma segunda imagem (popup, overlay, etc.)
   }>
 > = {
   itau: [
@@ -37,6 +38,7 @@ export const TUTORIAL_DATA: Record<
       imageUrl: "/placeholder.svg?height=600&width=400",
       imageAlt: "Opções de exportação do Itaú",
       cardImageUrl: "/assets/itau/step-04.png", // Caminho para sua imagem
+      secondCardImageUrl: "/assets/itau/step-04-ios.png", // Segunda imagem opcional (popup/overlay)
     },
   ],
   nubank: [
@@ -67,6 +69,7 @@ export const TUTORIAL_DATA: Record<
       imageUrl: "/placeholder.svg?height=600&width=400",
       imageAlt: "Exportação de extrato do Nubank",
       cardImageUrl: "/assets/nubank/step3.png", // Caminho para sua imagem
+      secondCardImageUrl: "/assets/nubank/step3.png", // Segunda imagem opcional (popup/overlay)
     },
   ],
 }
